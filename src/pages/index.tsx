@@ -10,7 +10,6 @@ import { GetServerSideProps } from 'next'
 import styles from '../styles/pages/Home.module.css'
 import { CountdownProvider } from "../contexts/CountdownContext";
 import { ChallengesProvider } from "../contexts/ChallengesContext";
-import { LevelUpModal } from "../components/LevelUpModal";
 
 interface HomeProps {
   level: number;
